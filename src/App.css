@@ -1,0 +1,99 @@
+@media only screen and (min-width: 768px) {
+.GSP-Logo {
+  background-image: url('gspt_logo.png');
+  background-size: 230px;
+  background-repeat: no-repeat;
+  padding: 230px;
+  margin: 55px 105px;
+  position:absolute;
+}
+
+
+.Navigation-Bar-Items {
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 402px;
+  margin-top: 58px;
+  letter-spacing: 1px;
+}
+
+.Navigation-Bar-Items > li {
+  font-weight: 500;
+  font-size: 13px;
+  margin: 16px;
+  color: #0C0C0C;
+}
+
+.Background-Image {
+  background-image: url('gsp_rig.png');
+  background-size:1000px;
+  padding: 490px;
+  background-repeat: no-repeat;
+  margin-left: 868px;
+  top : 0px;
+  position:absolute;
+  z-index:-1;
+}
+
+.Log-In-Register-Buttons {
+  list-style-type: none;
+  letter-spacing: 1px;
+  margin-left: 1461px;
+  margin-top: -74px;
+}
+
+.Log-In-Register-Buttons > li {
+  color: white;
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 19px;
+}
+
+.Register-Button {
+  background-color: #95c5eb;
+  border-radius:50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.Welcome-Text{
+  margin-top : 120px;
+  margin-left: 100px;
+}
+
+.WTHeader1 {
+  color: #E53212;
+  font-size: 85px;
+  font-weight:bold;
+  width: 40%;
+  letter-spacing: 1px;
+  margin:0px;
+}
+
+.WTHeader2{
+  font-size: 24px;
+  font-weight:300;
+  width: 30%;
+  letter-spacing: 1px;;
+  margin-bottom: 50px;
+
+}
+
+.WTButton{
+  background-color: #0033FF;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-weight:bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+
+}
+} 
