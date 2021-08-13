@@ -1,9 +1,20 @@
-@media only screen and (min-width: 768px) {
+@font-face {
+  font-family: 'gogh';
+  src: url('Font/Gogh-ExtraBold.otf');
+  font-weight: 900;
+} 
+
+@font-face {
+  font-family: 'madera'; 
+  src: url('Font/Madera Regular.ttf');
+  font-weight:normal; 
+}
+
 .GSP-Logo {
-  background-image: url('gspt_logo.png');
+  background-image: url('Images/gspt_logo.png');
   background-size: 230px;
   background-repeat: no-repeat;
-  padding: 230px;
+  padding: 30px 115px;
   margin: 55px 105px;
   position:absolute;
 }
@@ -25,11 +36,11 @@
 }
 
 .Background-Image {
-  background-image: url('gsp_rig.png');
+  background-image: url('Images/gsp_rig.png');
   background-size:1000px;
-  padding: 490px;
+  padding: 501px;
   background-repeat: no-repeat;
-  margin-left: 868px;
+  margin-left: 830px;
   top : 0px;
   position:absolute;
   z-index:-1;
@@ -60,40 +71,455 @@
 }
 
 .Welcome-Text{
-  margin-top : 120px;
-  margin-left: 100px;
+  margin-top : 90px;
+  margin-left: 105px;
+  display:flex;
+  flex-direction:column;
 }
 
 .WTHeader1 {
   color: #E53212;
   font-size: 85px;
-  font-weight:bold;
-  width: 40%;
+  font-weight: 900;
+  width: 600px;
   letter-spacing: 1px;
-  margin:0px;
+  font-family: gogh;
+  line-height: 1.1;
+  margin-bottom: 0px;
 }
 
 .WTHeader2{
-  font-size: 24px;
+  font-size: 23px;
   font-weight:300;
-  width: 30%;
-  letter-spacing: 1px;;
-  margin-bottom: 50px;
-
+  width: 600px;
+  letter-spacing: 1px;
+  line-height:1.8;
+  font-family: madera;
+  margin-top: 12px;
+  margin-bottom: 45px;
 }
 
 .WTButton{
   background-color: #0033FF;
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:madera;
+  width: 235px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Background-Design {
+  background-image: url('Images/Background-Design.png');
+  background-size:1250px 1700px;
+  background-repeat: no-repeat;
+  padding-top: 1600px;
+  padding-left: 1200px;
+  z-index: -2;
+  position: absolute;
+  margin-top: -1400px;
+  margin-left: 0px;
+}
+
+.Acreditation-Block {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 343px;
+}
+
+.Certificate1{
+  background-image: url('Images/iadc.png');
+  background-repeat: no-repeat;
+  background-size: 290px;
+  position: absolute;
+  padding: 52px 150px;
+  margin-top: -7px;
+}
+
+.Certificate2{
+  background-image: url('Images/iwcf.png');
+  background-repeat: no-repeat;
+  background-size: 355px;
+  position: absolute;
+  padding: 50px 135px;
+  margin-left: 295px;
+  margin-top: -7px;
+}
+
+.Certificate3{
+  background-image: url('Images/veritas.png');
+  background-repeat: no-repeat;
+  background-size: 360px;
+  position: absolute;
+  padding: 50px 140px;
+  margin-left: 590px;
+  margin-top: -8px;
+}
+
+.Certificate4{
+  background-image: url('Images/sparrows.png');
+  background-repeat: no-repeat;
+  background-size: 210px;
+  position: absolute;
+  margin-top: -38px;
+  margin-left: 963px;
+  padding: 70px 115px;
+}
+
+.Acreditation-Text{
+  margin-top: 445px;
+  font-weight: 900;
+  margin-left: 770px;
+  margin-bottom: 38px; 
+  letter-spacing: 1px;
+  color: #606060;
+  font-family:gogh;
+}
+
+.Drilling-Simulator-Block{
+  margin-top: 190px;
+  margin-left: 405px;
+  line-height: 2px;
+  display:flex;
+  flex-direction:column;
+}
+
+.DSTHeader1{
+  font-family:madera;
+  color: #958A8A; 
+  font-weight:bold;
+  margin-left: 440px;
+}
+
+.DSTHeader2{
+  font-size: 65px;
+}
+
+.DSTHeader3{
+  letter-spacing: 1px;
+  margin-left: 195px;
+  font-family:madera;
+  font-size: 22px;
+  color: #958A8A;
+  line-height: 2;
+  width:700px;
+  font-weight: 100px;
+  text-align:center;
+  margin-left: 175px;
+}
+
+.DSTButton{
+  background-color: #0033FF;
+  font-size: 14px;
   letter-spacing: 1px;
   color: white;
   border-radius: 50px;
   border: none;
   font-weight:bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 44px;
+  padding-right: 44px;
+  font-family:madera;
+  font-weight: bolder;
+  text-align: center;
+  width: 215px;
+  margin-left: 420px;
+}
+
+.Rig-Image{
+  background-image:url('Images/Frame.png');
+  position: absolute;
+  box-sizing: border-box;
+  background-size: 650px;
+  padding: 400px;
+  background-repeat: no-repeat;
+  margin-left: 580px;
+  margin-top: 60px;
+  width: 50%;
+}
+
+.Curved-Line{
+  background-image:url('Images/Curved-Line.png'); 
+  background-size: 1860px;
+  padding: 300px 916px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin-top: 180px;
+}
+
+.Information-Background{
+  background-image: url('Images/Information-Background.png');
+  background-repeat: no-repeat;
+  background-size:1850px 3000px;
+  padding: 985px 916px;
+  z-index: -2;
+  margin-top: 355px;
+  margin-left: 0px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 1833px;
+  border-top-left-radius: 2500px 120px;
+  border-top-right-radius: 1300px 220px;
+  overflow-x: hidden;
+  z-index:-2;
+}
+
+.Platform-Image {
+  background-image: url('Images/platform_drawing.png'); 
+  background-repeat: no-repeat;
+  background-size: 800px;
+  padding: 400px;
+  position: absolute;
+  margin-top:935px;
+  margin-left: 140px;
+}
+
+.Training-Image{
+  background-image: url('Images/training_screenshot.png');
+  background-repeat: no-repeat;
+  background-size: 850px;
+  padding: 420px;
+  position: absolute; 
+  margin-top: 1640px;
+  margin-left: 880px;
+}
+
+.Career-Oil-Gas-Block{
+  margin-top : 990px;
+  margin-left: 1113px;
+  display:flex;
+  flex-direction:column; 
+}
+
+.CIGHeader1{
+  margin-bottom: -40px;
+  font-size: 20px;
+  font:gogh; 
+  color: #958A8A;
+}
+
+.CIGHeader2{
+  width: 700px;
+  font-size: 66px;
+  font-family: gogh;
+  line-height: 70px;
+  margin-bottom: -12px;
+}
+
+.CIGHeader3{
+  font: gogh;
+  color: #958A8A;
+  font-size: 24px;
+  font-weight: normal;
+  width: 600px;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+
+.CIGHeader3-Blue{
+  color:#0033FF;
+}
+
+.CIGButton{
+  background-color: #0033FF;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:madera;
+  width: 220px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Online-Training-Block{
+  margin-top : 357px;
+  margin-left: 180px;
+  display:flex;
+  flex-direction:column;  
+}
+
+.OTHeader1 {
+  font-size: 20px;
+  font:gogh; 
+  color: #958A8A;
+  margin-bottom: -35px;
+}
+
+.OTHeader2{
+  width: 700px;
+  font-size: 64px;
+  font-family: gogh;
+  line-height: 70px;
+  margin-bottom: -5px;
+}
+
+.OTHeader3{
+  font: gogh;
+  color: #958A8A;
+  font-size: 24px;
+  font-weight: normal;
+  width: 570px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+
+.OTButton{
+  background-color: #0033FF;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:madera;
+  width: 220px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Globe-Image{
+  background-image:url('Images/globe.png');
+  background-repeat: no-repeat;
+  background-size: 1160px;
+  padding: 610px 583px;
+  margin-top: 80px;
+  margin-left: 667px;
+  position: absolute;
+  z-index:1;
+}
+
+.Extra-Background{
+  background-image:url('Images/Extra-Background.png');
+  background-repeat: no-repeat;
+  background-size:1900px 1400px;
+  padding: 900px 916px;
+  margin-top: 242px;
+  margin-left: 0px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 1800px;
+  z-index:-1;
+}
+
+.Career-Block{
+  margin-left: 105px;
+  margin-top:450px;
+  display:flex;
+  flex-direction:column;  
+}
+
+.CHeader1{
+  color: white;
+  width: 620px;
+  font-size: 64px;
+  font-family: gogh;
+  line-height: 70px;
+  margin-bottom: -5px;
+}
+
+
+.CHeader2{
+  color: #958A8A;
+  font: gogh;
+  font-size: 24px;
+  font-weight: normal;
+  width: 550px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+
+.CHeader1-Red{
+  color: #fc4848;
+}
+
+.CButton{
+  background-color: #fc4848;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:madera;
+  width: 220px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/*
+
+.CommentBlock1{
 
 }
+
+.CommentBlock1 > p{
+
 } 
+
+.ProfilePicture1{
+  background-image: url('Images/ProfilePicture1.png');
+  background-size: 50px;
+  padding: 40px;
+  background-repeat: no-repeat;
+}
+
+.ProfilePicture2{
+  background-image: url('Images/ProfilePicture2.png');
+  background-size: 50px;
+  padding: 40px;
+  background-repeat: no-repeat; 
+}
+
+.ProfilePicture3{
+  background-image: url('Images/ProfilePicture3.png');
+  background-size: 50px;
+  padding: 40px;
+  background-repeat: no-repeat; 
+}
+
+.ProfilePicture4{
+  background-image: url('Images/ProfilePicture4.png');
+  background-size: 50px;
+  padding: 40px; 
+  background-repeat: no-repeat;
+}
+
+.CommentBlock1{
+
+}
+
+.CommentBlock2{
+
+}
+
+.CommentBlock3{
+
+}
+
+.CommentBlock4{
+
+}
+*/
