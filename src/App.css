@@ -400,7 +400,7 @@
   background-image:url('Images/globe.png');
   background-repeat: no-repeat;
   background-size: 1160px;
-  padding: 610px 583px;
+  padding: 660px 583px;
   margin-top: 80px;
   margin-left: 667px;
   position: absolute;
@@ -410,8 +410,8 @@
 .Extra-Background{
   background-image:url('Images/Extra-Background.png');
   background-repeat: no-repeat;
-  background-size:1900px 1400px;
-  padding: 900px 916px;
+  background-size:1900px 1950px;
+  padding: 1000px 916px;
   margin-top: 242px;
   margin-left: 0px;
   position: absolute;
@@ -469,20 +469,80 @@
   text-align: center;
 }
 
-/*
-
 .CommentBlock1{
-
+  margin-left: 815px;
+  margin-top: -537px;
+  padding-top: 16px;
+  padding-bottom: 31px;
+  padding-left: 35px;
+  border-radius: 6px;
+  width: 335px;
+  position:relative;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  z-index:2;
 }
 
-.CommentBlock1 > p{
+.CommentBlock2{
+  margin-left: 1240px;
+  margin-top: -282px; 
+  padding-top: 16px;
+  padding-bottom: 31px;
+  padding-left: 35px;
+  border-radius: 6px;
+  width: 335px;
+  position:relative;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  z-index:2;
+}
 
+.CommentBlock3{
+  padding-top: 16px;
+  padding-bottom: 31px;
+  padding-left: 35px;
+  border-radius: 6px;
+  width: 335px;
+  position:relative;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  z-index:2;
+  margin-top: 50px;
+  margin-left: 910px;
+}
+
+.CommentBlock4{
+  padding-top: 16px;
+  padding-bottom: 31px;
+  padding-left: 35px;
+  border-radius: 6px;
+  width: 335px;
+  position:relative;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  z-index:2;
+  margin-top:-280px;
+  margin-left: 1335px;
+}
+
+.CommentBlock1 > p , .CommentBlock2 > p, .CommentBlock3 > p, .CommentBlock4 > p{
+  color: white;
+  width: 620px;
+  font-size: 23px;
+  font-family: gogh;
+  margin-bottom: -5px;
+  width: 310px;
+  margin-bottom: 30px;
 } 
 
 .ProfilePicture1{
   background-image: url('Images/ProfilePicture1.png');
   background-size: 50px;
-  padding: 40px;
+  padding: 25px;
   background-repeat: no-repeat;
 }
 
@@ -507,19 +567,271 @@
   background-repeat: no-repeat;
 }
 
-.CommentBlock1{
-
+.CommentName{
+  color: white;
+  margin-top: -40px;
+  margin-left: 65px;
+  font-size: 12px;
 }
 
-.CommentBlock2{
-
+.CommentJob{
+  color: white;
+  margin-top: -12px;
+  margin-left: 65px;
+  font-size: 10px;
+  font-weight:normal;
 }
 
-.CommentBlock3{
-
+.CommentBlock2 .CommentName , .CommentBlock3 .CommentName , .CommentBlock4 .CommentName {
+  margin-top:-70px;
 }
 
-.CommentBlock4{
-
+.CommentBlock2 .CommentJob , .CommentBlock3 .CommentJob , .CommentBlock4 .CommentJob{
+  margin-top: -7px;
 }
-*/
+
+.Capture-Interest-Title{
+  color:white;
+  font-family:gogh;
+  font-size:48px;
+  margin-top: 460px;
+  margin-left: 667px;
+  letter-spacing: 1px;
+}
+
+.Audio-Block{
+  display:flex;
+  flex-direction:column; 
+  margin-left: 100px;
+}
+
+.Audio-Image{ 
+  background-image: url('Images/Volume Up.png');
+  background-size: 50px;
+  padding: 26px;
+  background-repeat: no-repeat;
+}
+
+.Confidential-Block{
+  display:flex;
+  flex-direction:column;
+  margin-left: 110px;
+}
+
+.Confidential-Image{
+  background-image: url('Images/Unlock.png');
+  background-size: 50px;
+  padding: 26px;
+  background-repeat: no-repeat;
+}
+
+.Certification-Block{
+  display:flex;
+  flex-direction:column;
+  margin-left: 110px;
+}
+
+.Certification-Image{
+  background-image: url('Images/Download.png');
+  background-size: 50px;
+  padding: 26px;
+  background-repeat: no-repeat;
+}
+
+.Interactive-Training-Block{
+  display:flex;
+  flex-direction:column; 
+  margin-left: 85px;
+}
+
+.Interactive-Training-Image{
+  background-image: url('Images/Play.png');
+  background-size: 50px;
+  padding: 26px;
+  background-repeat: no-repeat;
+}
+
+.SpecialBlock{
+  display: inline-flex;
+  margin-top: 12px;
+}
+
+.FeaturesHeader1{
+  color: white;
+  font-size: 30px;
+  margin-top: 18px;
+}
+
+.FeaturesHeader2{
+  color: #958A8A;
+  width: 310px;
+  font-size: 20px;
+  font-weight:normal;
+  letter-spacing: 1px;
+  margin-top: -3px;
+  line-height: 35px;
+}
+
+.Info-Banner{
+  background-image: url('Images/rainbow_rectangle.png');
+  background-size: 1600px; 
+  padding: 110px;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  margin-left:105px;
+}
+
+.BannerHeader{
+  color:white;
+  font-family:gogh;
+  font-size:48px;
+  width: 800px;
+  margin-top: -50px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 305px;
+}
+
+.BannerButton{
+  margin-left: 580px;
+  margin-top:-10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:madera;
+  width: 220px;
+  font-weight: bolder;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.GSP-Training-Logo{
+  background-image: url('Images/gspt_logo.png');
+  background-size: 230px;
+  background-repeat: no-repeat;
+  padding: 30px 115px;
+  position:absolute;
+  margin-top: 70px;
+  margin-left:255px;
+}
+
+.Trademark-Text{
+  margin-top: 130px;
+  margin-left: 255px;
+  font-size: 14px;
+  color:#958A8A;
+}
+
+.Bottom-Bar-Items1{
+  margin-left: 605px;
+  margin-top: -135px;
+  letter-spacing: 1px;
+}
+
+.Bottom-Navigation-Bar-Items1 > li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 65px;
+  margin-left: 60px;
+  color: #0C0C0C;
+  list-style-type: none;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: gogh;
+  letter-spacing: 1px;
+}
+
+.Bottom-Bar-Items2{
+  margin-left: 605px;
+  margin-top: -105px;
+  letter-spacing: 1px;
+}
+
+.Bottom-Navigation-Bar-Items2 > li , .Bottom-Navigation-Bar-Items2 > div{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 60px;
+  color: #0C0C0C;
+  list-style-type: none;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: gogh;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+
+.StiriT{
+  padding-left: 40px;
+}
+
+.ContactT{
+  padding-left: 94px;
+  padding-right: 30px;
+}
+
+.Logo-Block {
+  margin-left: 1362px;
+  position: absolute;
+  margin-top: -43px;
+}
+
+.Facebook-Logo {
+  background-image: url('Images/Facebook_Icon.png'); 
+  background-size: 25px;
+  padding: 23px;
+  position:absolute;
+  background-repeat: no-repeat;
+}
+
+.Twitter-Logo {
+  background-image: url('Images/Twitter_Icon.png');
+  background-size: 25px; 
+  padding: 23px;
+  margin-left: 40px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.Instagram-Logo {
+  background-image: url('Images/Instagram_Icon.png'); 
+  background-size: 25px;
+  padding: 23px;
+  position: absolute;
+  margin-left: 80px;
+  background-repeat: no-repeat;
+}
+
+.Youtube-Logo{
+  background-image: url('Images/Youtube_Icon.png');
+  background-size: 25px;
+  padding: 23px;
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-left: 122px;
+  margin-top: 3px;
+}
+
+.Footer{
+}
+
+.Footer-Items{
+  font-size: 13px;
+  display: inline-flex;
+  justify-content:center;
+  color: #0C0C0C;
+  list-style-type: none;
+  font-size: 19px;
+  font-family: gogh;
+}
+
+.Footer-Items > li{
+  justify-items: end;
+}
