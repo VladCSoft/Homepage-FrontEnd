@@ -4,6 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <head>
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="HandheldFriendly" content="true" /> 
+      </head>
       <nav>
         <div className="GSP-Logo"> </div>
           <div className="Bar-Items"> 
@@ -14,10 +19,8 @@ function App() {
               <li> STIRI </li>
               <li> CONTACT </li>
             </ul>
-            <ul className="Log-In-Register-Buttons">
-              <li className="Login-Button"> LOGIN </li>
-              <li className="Register-Button"> INREGISTRARE </li>
-            </ul>
+            <button className="Login-Button"> LOGIN </button>
+            <p className="Register-Button"> INREGISTRARE </p>
           </div>
       </nav> 
       <body>
@@ -38,7 +41,7 @@ function App() {
       <div className="Drilling-Simulator-Block"> 
             <h3 className="DSTHeader1"> Simulatorul nostru  </h3>
             <h1 className="DSTHeader2"> Drilling Simulator Drill SIM - 600 </h1>
-            <h3 className="DSTHeader3"> Cel mai avansat simulator de specialitate din sud-estul europei. Acreditari IWCF Level 1-4 in centrul GSP Training Center acreditat IWCF din anul 2009. </h3>
+            <h3 className="DSTHeader3"> Cel mai avansat simulator de specialitate din sud-estul Europei. Acreditari IWCF Level 1-4 in centrul GSP Training Center acreditat IWCF din anul 2009. </h3>
             <button className="DSTButton"> Inscrie-te acum! </button>
       </div>
       <div className="Rig-Image"> </div>
@@ -138,6 +141,16 @@ function App() {
               <div className="Twitter-Logo"> </div>
               <div className="Instagram-Logo"> </div>
               <div className="Youtube-Logo"></div>
+      </div>
+      <hr className="Horizontal-Bar" /> 
+      <div className="Footer">
+              <ul className="Footer-Items">
+                <li> Terms of Use </li>
+                <li> Privacy Policy </li>
+                <li> Jobs </li>
+                <li> Contact </li>
+                <li> Help </li>
+              </ul>
       </div>
       </body>
     </div>
