@@ -11,11 +11,15 @@
 }
 
 /*
+.App{
+  overflow-x: hidden !important;
+}
+
 .GSP-Logo {
   background-image: url('Images/gspt_logo.png');
-  background-size: 230px;
+  background-size: 510px;
   background-repeat: no-repeat;
-  padding: 30px 115px;
+  padding: 55px 115px;
   margin: 55px 105px;
   position:absolute;
 }
@@ -40,13 +44,12 @@
 .Background-Image {
   background-image: url('Images/gsp_rig.png');
   background-size:1000px;
-  padding: 501px;
+  padding: 450px 500px;
   background-repeat: no-repeat;
-  margin-left: 830px;
+  margin-left: 833px;
   top : 0px;
   position:absolute;
   z-index:-1;
-  width: 30%;
 }
 
 
@@ -841,47 +844,63 @@
   
 }
 
-*/
 
-@media only screen and (min-width:768px) and (max-width:991px) { 
+
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
 
   .GSP-Logo {
     background-image: url('Images/gspt_logo.png');
-    background-size: 6.3em;
     background-repeat: no-repeat;
-    padding: 30px 115px;
-    margin-top: 1.0em;
-    margin-left: 2.5em;
-    position:absolute;
+    background-size: 11%;
+    flex:auto;
+    position: relative;
+    padding: 14px;
+    margin-top: 22px;
+    margin-left: 42px;
   }
 
-  .Navigation-Bar-Items {
+  .Navigation-Bar-Items { 
     display: inline-flex;
-    list-style-type: none;
     white-space: nowrap;
-    margin-top: 1.3em;
-    margin-left: 8em;
+    list-style-type: none;
+    margin-top: 0em;
     letter-spacing: 0;
+    white-space: nowrap;
+    display: 30%;
   }
   
   .Navigation-Bar-Items > li {
-    font-weight: 500;
+    width: 20%;
+    font-weight: 500px; 
     font-size: 0.47em;
-    margin: 0.7em;
+    padding-right: -10em;
     color: #0C0C0C;
   }
 
   .Background-Image {
     background-image: url('Images/gsp_rig.png');
     background-repeat: no-repeat;
-    background-size: 26em;
-    padding: 26em;
-    padding-right: 0em;
-    box-sizing: border-box;
-    margin-left: 22em;
-    margin-top: -4.7em;
-    position: absolute;
-    z-index:-1;
+    background-position:right center;
+    background-size: 40%;
+    padding: 200px;
+    margin-top: -42em;
   }
   
   .Login-Button {
@@ -933,7 +952,7 @@
     letter-spacing: 1px;
     line-height:1.8;
     font-family: madera;
-    margin-top: -1.6em;
+    margin-top: 0.9em;
     margin-bottom: 2.7em;
   }
   
@@ -959,10 +978,11 @@
     background-size: 40em 24em;
     background-repeat: no-repeat;
     padding-top: 25em;
-    padding-right: 40em;
     z-index: -2;
     position: absolute;
     margin-top: -17.5em;
+    padding-left: 0em;
+    padding-right: 40em;
   }
 
   .Acreditation-Block {
@@ -1091,7 +1111,7 @@
   .Curved-Line{
     background-image:url('Images/Curved-Line.png'); 
     background-size: 48.5em;
-    padding: 300px 384px;
+    padding: 12em 23.7em;
     position: absolute;
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -1102,7 +1122,7 @@
   .Information-Background{
     background-image: url('Images/Information-Background.png');
     background-repeat: no-repeat;
-    background-size:48.7em 51.2em;
+    background-size:48em 53em;
     padding: 985px 384px;
     z-index: -2;
     margin-top: 10.8em;
@@ -1110,6 +1130,7 @@
     position: absolute;
     box-sizing: border-box;
     z-index:-2;
+    width: 0em;
   }
   
   .Platform-Image {
@@ -1255,12 +1276,13 @@
   .Extra-Background{
     background-image:url('Images/Extra-Background.png');
     background-repeat: no-repeat;
-    background-size:48.2em 51.2em;
+    background-size:48em 51.2em;
     padding: 400px 384px;
-    margin-top: -4.7em;
+    margin-top: -4.8em;
     margin-left: 0em;
     position: absolute;
     z-index:-1;
+    width: 0em;
     
   }
 
@@ -1333,7 +1355,7 @@
     margin-left: 33.3em;
     margin-top: -8.65em; 
     padding-top: 0.6em;
-    padding-bottom: 0.55em;
+    padding-bottom: 0.7em;
     padding-left: 1.5em;
     border-radius: 6px;
     width: 145px;
@@ -1346,7 +1368,7 @@
   
   .CommentBlock3{
     padding-top: 0.6em;
-    padding-bottom: 0.55em;
+    padding-bottom: 0.7em;
     padding-left: 1.5em;
     border-radius: 6px;
     width: 145px;
@@ -1355,14 +1377,14 @@
     display: flex;
     flex-direction: column;
     z-index:2;
-    margin-top: 1.6em;
+    margin-top: 1em;
     margin-left: 23.5em;
   }
   
   .CommentBlock4{
     padding-top: 0.6em;
-    padding-bottom: 0.55em;
-    padding-left: 1.5em;
+    padding-bottom: 0.7em;
+    padding-left: 1em;
     border-radius: 6px;
     width: 145px;
     position:relative;
@@ -1371,7 +1393,7 @@
     flex-direction: column;
     z-index:2;
     margin-left: 35.6em;
-    margin-top: -8.7em;
+    margin-top: -8.8em;
   }
   
   .CommentBlock1 > p , .CommentBlock2 > p, .CommentBlock3 > p, .CommentBlock4 > p{
@@ -1422,10 +1444,14 @@
     margin-left: 4.45em;
     font-size: 0.55em;
   }
+
+  .CommentBlock2 .CommentName , .CommentBlock3 .CommentName , .CommentBlock4 .CommentName {
+    padding-top: 3.9em;
+  }
   
   .CommentJob{
     color: white;
-    margin-top: -1em;
+    margin-top: 10em;
     margin-left: 4.9em;
     font-size: 0.5em;
     font-weight:normal;
@@ -1627,7 +1653,7 @@
   }
   
   .StiriT{
-    padding-left: -5em;
+    padding-left: 0em;
   }
   
   .ContactT{
@@ -1682,8 +1708,8 @@
   display: inline-flex;
     list-style-type: none;
     white-space: nowrap;
-    margin-top: 7.5em;
-    margin-left: 13.6em;
+    margin-top: 4em;
+    margin-left: 10em;
     letter-spacing: 0;
     margin-bottom: 0px;
 }
@@ -1699,19 +1725,171 @@
   border-top: 1px solid #958A8A;;
   position: absolute;
   width: 47.9em;
-  margin-top: 6em
+  margin-top: 3.5em
 }
 
 /*
   * {
     border:1px solid red !important;
     }
-    */
+    
+    
+}
+  */
+    
+  @media only screen and (min-width:768px) and (max-width:991px) {
+
+    *{
+      padding: 0px; 
+      margin: 0px;
+      border: 0px;
+    }
+
+    .nav {
+      display: flex;
+    }
   
+  
+    .GSP-Logo {
+      position: relative;
+      background-image: url('Images/gspt_logo.png');
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size:23%;
+      flex: auto;
+      padding: 48px;
+      margin-top: 18px;
+      margin-left: 42px;
+    }
+
+    .Navigation-Bar-Items {
+      position:relative;
+      display: flex;
+      flex: auto;
+      font-weight: normal;
+      font-size: 6px;
+      list-style-type: none;
+      width: 0px;
+      margin-top: 26px;
+      margin-left: -295px;
+      white-space: nowrap;
+      font-weight: 500;
+      letter-spacing: 0.1px;
+    }
+
+    .Item {
+      padding-right: 15px;
+    }
+
+    .Background-Image {
+      position:relative; 
+      background-image: url('Images/gsp_rig.png');
+      background-repeat: no-repeat;
+      flex:auto;
+      background-position: right top;
+      background-size:55%;
+      padding: 55px;
+      padding-bottom: 430px;
+      margin-top: -120px;
+      margin-left: 0px;
+      z-index: -1;
+    }
+
+    .Log-Reg-Block {
+      position:relative;
+      display: flex;
+      flex: auto;
+      background-position: center top;
+      font-weight: normal;
+      font-size: 6px;
+      list-style-type: none;
+      width: 0px;
+      margin-top: 26px;
+      margin-left: -100px;
+      white-space: nowrap;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+
+    .Item-Login , .Item-Register{
+      padding-right: 15px;
+    }
+
+    .Item-Login{
+      padding-left: 212px;
+      color:white;
+    }
     
+    .Item-Register{
+      padding-left: 20px;
+      color:white;
+    }
+
+    .Background-Design {
+      position:relative; 
+      background-image: url('Images/Background-Design.png');
+      background-repeat: no-repeat;
+      flex:auto;
+      background-size:65%;
+      padding: 130px;
+      padding-bottom: 470px;
+      margin-top: -600px;
+      z-index: -2;
+    }
+
+    .Welcome-Text{
+      display:flex;
+      flex-direction: column;
+      margin-top: 90px;
+      margin-left: -100px;
+    }
+
+    .WTHeader1 {
+      color: #E53212;
+      flex:auto;
+      text-align: center;
+      font-size: 2.3em;
+      font-weight: bolder;
+      width: 40%;
+      letter-spacing: 1px;
+      font-family: gogh;
+      line-height: 1.1em;
+    }
     
+    .WTHeader2{
+      font-size: 0.53em;
+      font-weight:300;
+      width: 40%;
+      letter-spacing: 1px;
+      line-height:1.8;
+      font-family: madera;
+      margin-top: 0.9em;
+      margin-bottom: 2.7em;
+      text-align: center;
+      flex:auto;
+    }
     
+    .WTButton{
+      background-color: #0033FF;
+      font-size: 0.53em;
+      letter-spacing: 1px;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      padding-left: 1px;
+      padding-right: 1px;
+      width: 25%;
+      font-family:madera;
+      font-weight: bolder;
+      text-align: center;
+      flex:auto;
+      margin-left: 45px;
+    }
+
+
+
+
+
   }
-    
-    
-  

@@ -4,34 +4,30 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <head>
-      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta name="HandheldFriendly" content="true" /> 
-      </head>
-      <nav>
+      <div className="nav">
         <div className="GSP-Logo"> </div>
-          <div className="Bar-Items"> 
             <ul className="Navigation-Bar-Items">
-              <li> DESPRE NOI </li>
-              <li> CURSURI </li>
-              <li> CURSURI ONLINE </li>
-              <li> STIRI </li>
-              <li> CONTACT </li>
+              <li className="Item"> DESPRE NOI </li>
+              <li className="Item"> CURSURI </li>
+              <li className="Item"> CURSURI ONLINE </li>
+              <li className="Item"> STIRI </li>
+              <li className="Item"> CONTACT </li>
             </ul>
-            <button className="Login-Button"> LOGIN </button>
-            <p className="Register-Button"> INREGISTRARE </p>
-          </div>
-      </nav> 
+            <ul className="Log-Reg-Block"> 
+            <li className="Item-Login"> LOGIN </li>
+            <li className="Item-Register"> REGISTER </li>
+            </ul>
+      </div> 
       <body>
       <div className="Background-Image"> </div>
-      <div class="Welcome-Text">
-          <h1 className="WTHeader1"> Centrul de training GSP </h1>
+      <div className="Background-Design">
+          <div className="Welcome-Text"> 
+          <h1 className="WTHeader1"> Centrul de training GSP </h1> 
           <h3 className="WTHeader2"> Inscrie-te pentru a obtine acreditarile necesare activitilor profesionale din domeniul Oil & Gas. </h3>
           <button className="WTButton"> Inscrie-te la cursuri! </button>
+          </div>
       </div>
-          <div className="Background-Design"> </div>
-          <p className="Acreditation-Text" > Acreditarile GSP Training Center </p>
+     {/*     <p className="Acreditation-Text" > Acreditarile GSP Training Center </p>
       <div className="Acreditation-Block">
             <div className="Certificate1"> </div>
             <div className="Certificate2"> </div>
@@ -151,8 +147,8 @@ function App() {
                 <li> Contact </li>
                 <li> Help </li>
               </ul>
-      </div>
-      </body>
+  </div> */}
+      </body> 
     </div>
   );
 }
