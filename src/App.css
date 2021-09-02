@@ -1803,25 +1803,35 @@
       font-size: 0.8vw;
       list-style-type: none;
       width: 0px;
-      margin-top: 26px;
+      margin-top: 32px;
       margin-left: -100px;
       white-space: nowrap;
       font-weight: 500;
       letter-spacing: 0.5px;
     }
-
+  
     .Item-Login , .Item-Register{
-      padding-right: 15px;
+      padding-right: 35px;
     }
-
+  
     .Item-Login{
-      padding-left: 33em;
+      padding-left: 28.5em;
       color:white;
     }
     
     .Item-Register{
-      padding-left: 15px;
+      padding-left: 34px; 
+      border-radius: 50px;
+      background-color: #95c5eb;
+      text-align:center;
+      padding-top: 1em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 0.6em;
       color:white;
+      border: none;
+      height: 10px;
+      margin-top:-0.9em;
     }
 
     .Background-Design {
@@ -1901,6 +1911,7 @@
   
     .Acreditation-Text{
       margin-top: 2em;
+      margin-bottom: 1em;
       font-size: 1.2vw;
       width: 40%;
       font-weight: 900;
@@ -2028,12 +2039,12 @@
 
     .Rig-Image{
       background-image:url('Images/Frame.png');
-      background-size: 300px;
+      background-size: 35%;
       background-position: center;
       flex:auto;
       padding-bottom:485px;
       background-repeat: no-repeat;
-      margin-top: -4em;
+      margin-top: -2em;
     }
     
     .Curved-Line{
@@ -2092,8 +2103,10 @@
       margin-top : -52.5em;
       margin-left: 28.5em;
       display:flex;
+      float: right;
       padding-right: 0px;
       flex-direction: column;
+      margin-right: 4em;
     }
     
     .CIGHeader1{
@@ -2104,8 +2117,7 @@
       font:gogh; 
       color: #958A8A;
       white-space: nowrap;
-      margin-left: -17.4em;
-      text-align: right;
+      margin-left: 0em;
     }
     
     .CIGHeader2{
@@ -2116,10 +2128,8 @@
       width: 80%;
       margin-bottom: -8px;
       white-space: nowrap;
-      text-align: right;
-      margin-left: -1.5em
     }
-
+  
     .CIGHeader2-2{
       font-size: 3.6vw;
       font-family: gogh;
@@ -2127,10 +2137,9 @@
       width: 83.9%;
       margin-bottom: -8px;
       white-space: nowrap;
-      text-align: right;
-      margin-left: -0.02em
+      margin-left: 0.03em
     }
-
+  
     .CIGHeader2-3{
       font-size: 3.6vw;
       font-family: gogh;
@@ -2138,8 +2147,7 @@
       width: 80%;
       margin-bottom: -8px;
       white-space: nowrap;
-      text-align: right;
-      margin-left: -4.71em;
+      margin-left: 0em;
     }
     
     .CIGHeader3{
@@ -2147,54 +2155,51 @@
       color: #958A8A;
       font-size: 1.2vw;
       font-weight: normal;
-      width: 72%;
+      width: 90%;
       flex:auto;
       line-height: 20px;
       letter-spacing: 1px;
       margin-top: 1.4em;
       margin-bottom: 0px;
-      text-align:right;
-      margin-left: -0.7em
+      margin-left: 0em
     }
-
+  
     .CIGHeader3-2{
       font: gogh;
       color: #958A8A;
       font-size: 1.2vw;
       font-weight: normal;
-      width: 72%;
+      width: 90%;
       flex:auto;
       line-height: 20px;
       letter-spacing: 1px;
       margin-bottom: -20px;
-      text-align:right;
-      margin-left: -1em;
+      margin-left: 0em;
     }
     
     .CIGHeader3-Blue{
       color:#0033FF;
     }
     
-
+  
     .CIGButton{
       background-color: #0033FF;
-      font-size: 4.2vw;
-      float:right;
-      width:62%;
-      text-align: center;
+      font-size: 1.2vw;
+      width: 54%;
       letter-spacing: 1px;
       color: white;
       border-radius: 50px;
-      padding-top: 10px;
-      padding-bottom: 25px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
       font-family:madera;
       font-weight: bolder;
-      margin-right: 2px;
-      transform: scale(0.3);
+      text-align: center;
+      margin-top: 35px;
     }
     
     .Online-Training-Block{
-      margin-top : 14em;
+      margin-top : -29em;
       margin-left: 4em;
       display:flex;
       flex-direction:column;
@@ -2629,13 +2634,15 @@
       width:54%;
       padding-top:2.6em;
       margin-top: -3em;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
       line-height: 25px;
-      margin-left: 8.3em;
     }
     
     .BannerButton{
-      margin-left: 24.6em;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 1.5em;
       font-size: 1.3vw;
       letter-spacing: 1px;
@@ -2648,6 +2655,7 @@
       padding-right: 1px;
       font-family:madera;
       width: 25%;
+      text-align: center;
       font-weight: bolder;
       text-align: center;
       border: 1px solid white;
@@ -2667,14 +2675,14 @@
   
     .GSP-Training-Logo{
       background-image: url('Images/gspt_logo.png');
-      background-size: 10em;
+      background-size: 9em;
       width:100%;
       background-position:center;
       background-repeat: no-repeat;
       padding: 30px 110px;
       position: relative;
-      margin-top: 5.4em;
-      margin-left: -22em;
+      margin-top: 5.3em;
+      margin-left: -23em;
 
     }
 
@@ -2683,14 +2691,14 @@
       flex-direction: column;
       margin-top: -8.9em;
       margin-left: 0em;
-      margin-right: 0em;
+      margin-right: 2.6em;
       margin-top: -2em;
       width: 25px;  
     }
     
     .Trademark-Text{
-      margin-top: -0em;
-      margin-left:-23.2em;
+      margin-top: -0.4em;
+      margin-left:-24.2em;
       padding-right: 29em;
       text-align: right;
       font-size: 0.5em;
@@ -2834,3 +2842,2218 @@
   }
 
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  *{
+    padding: 0px; 
+    margin: 0px; 
+
+  }
+
+  .nav {
+    display: flex;
+  }
+
+
+  .GSP-Logo {
+    position: relative;
+    background-image: url('Images/gspt_logo.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:24%;
+    flex: auto;
+    padding: 48px;
+    margin-top: 18px;
+    margin-left: 2.9em;
+  }
+
+  .Navigation-Bar-Items {
+    position:relative;
+    display: flex;
+    flex: auto;
+    font-weight: normal;
+    font-size: 0.8vw;
+    list-style-type: none;
+    width: 0px;
+    margin-top: 30px;
+    margin-left: -340px;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+  }
+
+  .Item {
+    padding-right: 15px;
+  }
+
+  .Background-Image {
+    position:relative; 
+    background-image: url('Images/gsp_rig.png');
+    background-repeat: no-repeat;
+    flex: auto;
+    background-position: right top;
+    background-size: 55%;
+    padding: 55px;
+    padding-bottom: 540px;
+    margin-top: -120px;
+    margin-left: 0px;
+    z-index: -1;
+  }
+
+  .Log-Reg-Block {
+    position:relative;
+    display: flex;
+    flex: auto;
+    background-position: center top;
+    font-weight: normal;
+    font-size: 0.8vw;
+    list-style-type: none;
+    width: 0px;
+    margin-top: 32px;
+    margin-left: -100px;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .Item-Login , .Item-Register{
+    padding-right: 35px;
+  }
+
+  .Item-Login{
+    padding-left: 28.5em;
+    color:white;
+  }
+  
+  .Item-Register{
+    padding-left: 34px; 
+    border-radius: 50px;
+    background-color: #95c5eb;
+    padding-top: 0.6em;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.3em;
+    color:white;
+    border: none;
+    height: 4px;
+    margin-top:-0.4em;
+  }
+
+  .Background-Design {
+    position:relative; 
+    background-image: url('Images/Background-Design.png');
+    background-repeat: no-repeat;
+    flex:auto;
+    background-size:65%;
+    padding: 140px;
+    padding-bottom: 250px;
+    margin-top: -700px;
+    z-index: -2;
+  }
+
+  .Welcome-Text{
+    display:flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left: -5.5em;
+  }
+
+  .WTHeader1 {
+    color: #E53212;
+    display:flex;
+    flex:auto;
+    font-size: 4.5vw;
+    font-weight: bolder;
+    width: 45%;
+    letter-spacing: 1px;
+    font-family: gogh;
+    line-height: 1.1em;
+  }
+  
+  .WTHeader2{
+    font-size: 1.2vw;
+    font-weight:300;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height:1.8em;
+    font-family: madera;
+    margin-top: 0.9em;
+    margin-bottom: 1.8em;
+    text-align: left;
+    flex:auto;
+  }
+  
+  .WTButton{
+    background-color: #0033FF;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 24%;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    flex:auto;
+  }
+
+  .Acreditation-Block {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+
+  .Certification-Block{
+    display: inline-flex;
+    padding-bottom: 10px;
+  }
+
+  .Acreditation-Text{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1.2vw;
+    width: 40%;
+    font-weight: 900;
+    width:auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #606060;
+    font-family:gogh;
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+  
+  .Certificate1{
+    background-image: url('Images/iadc.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 17vw ;
+    flex:auto;
+    padding-right: 0px;
+    padding-bottom: 70px;
+    margin-top: 1.5em;
+    margin-left: -40em;
+  }
+  
+  .Certificate2{
+    background-image: url('Images/iwcf.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 22vw;
+    flex:auto; 
+    padding-right: 0px;
+    padding-bottom: 70px;
+    margin-left:-10em;
+    margin-top:-4.4em;
+    z-index: 2;
+  }
+  
+  .Certificate3{
+    background-image: url('Images/veritas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22vw;
+    flex:auto;
+    padding-bottom: 70px;
+    margin-left: 17em;
+    margin-top: -4.3em;
+  }
+  
+  .Certificate4{
+    background-image: url('Images/sparrows.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13vw;
+    flex:auto;
+    margin-top: -4.8em;
+    margin-left: 43em;
+    padding-right: 0px;
+    padding-bottom: 80px;
+  }
+
+  .Drilling-Simulator-Block{
+    margin-top: 3em;
+    margin-left: 0px;
+    line-height: 0px;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .DSTHeader1{
+    font-family:madera;
+    color: #958A8A; 
+    font-weight:bold;
+    flex:auto;
+    font-size: 1.2vw;
+    margin-bottom: 35px;
+    width:auto;
+    text-align:center;
+  }
+  
+  .DSTHeader2{
+    font-size: 3.6vw;
+    flex:auto;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    text-align: center;
+    width:auto;
+    text-align:center;
+  }
+  
+  .DSTHeader3{
+    letter-spacing: 1px;
+    font-family:madera;
+    font-size: 1.2vw;
+    color: #958A8A;
+    line-height: 2;
+    font-weight: 100px;
+    width: 44% ;
+    text-align: center;
+    flex:auto;
+    margin-top: -15px;
+    margin-left: 22.6em;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .DSTButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 18%;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 34.56em;
+    margin-top: -25px;
+  }
+
+  .Rig-Image{
+    background-image:url('Images/Frame.png');
+    background-size: 33%;
+    background-position: center;
+    flex:auto;
+    padding-bottom:485px;
+    background-repeat: no-repeat;
+    margin-top: -1em;
+  }
+  
+  .Curved-Line{
+    position:relative;
+    background-image:url('Images/Curved-Line.png'); 
+    background-size: 100%;
+    background-position: center;
+    flex:auto;
+    padding: 16.5em 0em;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-top: -29em;
+  }
+  
+  .Information-Background{
+    position:relative;
+    background-image: url('Images/Information-Background.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    flex:auto;
+    padding: 20px 0px;
+    margin-top: -21em;
+    margin-left: 0em;
+    z-index:-2;
+    height: 1025px;
+    overflow-x: hidden;
+  }
+  
+  .Platform-Image {
+    background-image: url('Images/platform_drawing.png'); 
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40vw;
+    flex:auto;
+    padding: 180px;
+    position: relative;
+    margin-top: 16.5em;
+    margin-left: 4.5em;
+  }
+  
+  .Training-Image{
+    background-image: url('Images/training_screenshot.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 45vw;
+    flex:auto;
+    padding-right: 10px;
+    padding-bottom: 500px;
+    position: relative; 
+    margin-top: 0em;
+    margin-left: 0em;
+  }
+  
+  .Career-Oil-Gas-Block{
+    margin-top : -52.5em;
+    margin-left: 28.5em;
+    display:flex;
+    float: right;
+    padding-right: 0px;
+    flex-direction: column;
+    margin-right: 6em;
+  }
+  
+  .CIGHeader1{
+    margin-bottom: 8px;
+    font-size: 1.2vw;
+    width: 80%;
+    flex:auto;
+    font:gogh; 
+    color: #958A8A;
+    white-space: nowrap;
+    margin-left: 0em;
+  }
+  
+  .CIGHeader2{
+    font-size: 3.6vw;
+    font-family: gogh;
+    margin-left: 0em;
+    flex:auto; 
+    width: 80%;
+    margin-bottom: -8px;
+    white-space: nowrap;
+  }
+
+  .CIGHeader2-2{
+    font-size: 3.6vw;
+    font-family: gogh;
+    flex:auto; 
+    width: 83.9%;
+    margin-bottom: -8px;
+    white-space: nowrap;
+    margin-left: 0.0em
+  }
+
+  .CIGHeader2-3{
+    font-size: 3.6vw;
+    font-family: gogh;
+    flex:auto; 
+    width: 80%;
+    margin-bottom: -8px;
+    white-space: nowrap;
+    
+    margin-left: 0em;
+  }
+  
+  .CIGHeader3{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    width: 80%;
+    flex:auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 1.4em;
+    margin-bottom: 0px;
+    margin-left: 0em;
+  }
+
+  .CIGHeader3-2{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    width: 80%;
+    flex:auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: -20px;
+    margin-left: 0em;
+  }
+  
+  .CIGHeader3-Blue{
+    color:#0033FF;
+  }
+  
+
+  .CIGButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    width: 54%;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  .Online-Training-Block{
+    margin-top : -27em;
+    margin-left: 4em;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .OTHeader1 {
+    margin-bottom: 8px;
+    font-size: 1.2vw;
+    flex: auto;
+    font:gogh; 
+    color: #958A8A;
+    white-space:nowrap;
+  }
+  
+  .OTHeader2{
+    font-size: 3.6vw;
+    flex:auto;
+    font-family: gogh;
+    line-height: 35px;
+    margin-bottom: -8px;
+  }
+  
+  .OTHeader3{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    flex:auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 1.4em;
+    margin-bottom: 10px;
+    width: 36%;
+  }
+  
+  .OTButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    width: 20%;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .Globe-Image{
+      background-image:url('Images/globe.png');
+      background-repeat: no-repeat;
+      background-size: 64vw;
+      background-position: right top;
+      padding: 27em 14em;
+      margin-top: -5.5em;
+      margin-left: 17.4em;
+      position: relative;
+      z-index:1;
+    }
+    
+    .Extra-Background{
+      background-image:url('Images/Extra-Background.png');
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      background-position:center;
+      flex:auto;
+      height: 1200px;
+      width: 100%;
+      margin-top: -49em;
+      margin-left: 0em;
+      position: relative;
+      z-index:-1;
+    }
+   
+    .Career-Block{
+      margin-left: 2.6em;
+      margin-top:0em;
+      padding-top: 7.5em;
+      display:flex;
+      flex-direction:column;  
+    }
+    
+    .CHeader1{
+      color: white;
+      max-width: 28%;
+      font-size: 3.6vw;
+      font-family: gogh;
+      line-height: 1.3em;
+      margin-bottom: -4px;
+    }
+    
+    
+    .CHeader2{
+      font: gogh;
+      color: #958A8A;
+      font-size: 1.3vw;
+      font-weight: normal;
+      width: 28%;
+      line-height: 1.8;
+      margin-top: 1.4em;
+      margin-bottom: 22px;
+    }
+    
+    .CHeader1-Red{
+      color: #fc4848;
+    }
+    
+    .CButton{
+      background-color: #fc4848;
+      font-size: 1.2vw;
+      letter-spacing: 1px;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-family:madera;
+      width: 20%;
+      font-weight: bolder;
+      text-align: center;
+      margin-bottom: 200px;
+    }
+
+    .CommentBlock1{
+      margin-right: 22.2em;
+      margin-top: -70em;
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      width: 15.5%;
+      border-radius: 6px;
+      float: right;
+      position:relative;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+    }
+    
+    .CommentBlock2{
+      margin-right: 8.5em;
+      margin-top: -70em; 
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      float: right;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+    }
+    
+    .CommentBlock3{
+      margin-right: 19em; 
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      float:right;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+      margin-top: -60.5em;
+      margin-left: 22em;
+    }
+    
+    .CommentBlock4{
+      margin-right: 5.5em;
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      background-color: #202020;
+      float:right;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+      margin-left: 35.6em;
+      margin-top: -60.5em;
+    }
+
+    .Lorem2{
+      margin-top: -14px;
+    }
+
+    .Lorem3 {
+      margin-top: -14px;
+    }
+
+    .Lorem4{
+      margin-top:-14px;
+    } 
+
+    .CommentBlock1 > p , .CommentBlock2 > p, .CommentBlock3 > p, .CommentBlock4 > p{
+      color: white;
+      font-size: 1.2vw;
+      height: 0px;
+      font-family: gogh;
+      width: 40%;
+      margin-bottom: 30px;
+      letter-spacing: 1;
+      white-space: nowrap;
+    } 
+    
+    .ProfilePicture1{
+      position: relative;
+      background-image: url('Images/ProfilePicture1.png');
+      background-size: 17% ;
+      padding: 20px;
+      margin-top: -0.4em;
+      margin-left: 0em;
+      background-repeat: no-repeat;
+    }
+    
+    .ProfilePicture2{
+      background-image: url('Images/ProfilePicture2.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.4em;
+      margin-left: 0em;
+      background-repeat: no-repeat;
+    }
+    
+    .ProfilePicture3{
+      background-image: url('Images/ProfilePicture3.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.4em;
+      margin-left: 0em;
+      background-repeat: no-repeat; 
+    }
+    
+    .ProfilePicture4{
+      background-image: url('Images/ProfilePicture4.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.4em;
+      margin-left:0pem;
+      background-repeat: no-repeat;
+    }
+    
+    .CommentName{
+      color: white;
+      margin-top: -4.2em;
+      margin-left: 4.2em;
+      font-size: 0.55em;
+      padding-top: 3px;
+      width: 10%;
+      white-space: nowrap;
+    }
+    
+    .CommentJob{
+      color: white;
+      margin-top:0em;
+      margin-left: 4.2em;
+      font-size: 0.55em;
+      font-weight:normal;
+      white-space: nowrap;
+    }
+
+    .Capture-Interest-Title{
+      color:white;
+      font-family:gogh;
+      font-size:1.2em;
+      margin-top: -19em;
+      margin-bottom: 3em;
+      text-align:center;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      z-index:2;
+      position:relative;
+    }
+    
+    .SpecialBlock{
+      display:flex;
+      flex-direction: row;
+      flex:auto;
+      justify-content: center;
+      margin-top: 12px;
+    }
+
+    .Audio-Block{
+      display:flex;
+      flex-direction:column; 
+      margin-left: 0em;
+      margin-top: -2em
+    }
+    
+    .Audio-Image{ 
+      position:relative;
+      background-image: url('Images/Volume Up.png');
+      background-size: 3.8vw;
+      background-position: center;
+      padding: 31px;
+      margin-left: -7em;
+      padding-bottom: 0.48em;
+      background-repeat: no-repeat;
+      z-index: 2;
+      padding-top: 2.4em;
+    }
+    
+    .Confidential-Block{
+      display:flex;
+      flex-direction:column;
+      margin-left: 2em;
+      margin-top: -2em;
+    }
+    
+    .Confidential-Image{
+      position:relative;
+      background-image: url('Images/Unlock.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 1em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+
+    .Confidential-Block .FeaturesHeader1 {
+      padding-left: 2.55em;
+    } 
+    
+    .Certification-Block{
+      display:flex;
+      flex-direction:column;
+      margin-left: 2em;
+      margin-top: -1.92em; 
+    }
+    
+    .Certification-Image{
+      position:relative;
+      background-image: url('Images/Download.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 0.9em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+
+    .Certification-Block .FeaturesHeader1 {
+      padding-left: 2.9em;
+    } 
+    
+    .Interactive-Training-Block{
+      display:flex;
+      flex-direction:column; 
+      margin-left: 2em;
+      margin-top: -1.8em;
+    }
+    
+    .Interactive-Training-Image{
+      position:relative;
+      background-image: url('Images/Play.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 0.9em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+  
+    .Interactive-Training-Block .FeaturesHeader1{
+      padding-left: 2.5em;
+    }
+
+    .FeaturesHeader1{
+      color: white;
+      float:right;
+      font-size: 1.6vw;
+      margin-top: 0.8em;
+      margin-left: -2.9em;
+      width: 80%;
+      flex: auto;
+      white-space: nowrap;
+      text-align: right;
+    }
+
+    .Certification-Block .FeaturesHeader2 {
+      
+    }
+    
+    .FeaturesHeader2{
+      color: #958A8A;
+      width: 80%;
+      font-size: 1.2vw;
+      text-align: right;
+      font-weight:normal;
+      letter-spacing: 1px;
+      margin-top: 1em;
+      white-space: nowrap;
+    }
+
+    .FeaturesHeader3{
+      color: #958A8A;
+      width: 80%;
+      font-size: 1.2vw;
+      text-align: right;
+      font-weight:normal;
+      letter-spacing: 1px;
+      margin-top: 1em;
+      white-space: nowrap;
+    }
+    
+    .Info-Banner{
+      background-image: url('Images/rainbow_rectangle.png');
+      background-size: 100%;
+      background-position: center; 
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right:auto;
+      flex: auto;
+      margin-top: 3.3em;
+      padding: 40px;
+      width: 75%;
+      position:relative;
+    }
+    
+    .BannerHeader{
+      color:white;
+      font-family:gogh;
+      font-size: 2.4vw;
+      width:54%;
+      padding-top:2.6em;
+      margin-top: -3em;
+      margin-left: auto; 
+      margin-right: auto;
+      text-align: center;
+      line-height: 25px;
+    }
+    
+    .BannerButton{
+      margin-top: 1.5em;
+      font-size: 1.3vw;
+      letter-spacing: 1px;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-family:madera;
+      width: 25%;
+      font-weight: bolder;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border: 1px solid white;
+    }
+
+    .Footer-Special-Block{
+      display: flex;
+    }
+
+    .GSP-Trademark{
+      display:flex;
+      flex-direction:column;
+      flex:auto;
+      margin-top: -2.4em;
+      margin-left: 4em;
+    }
+  
+    .GSP-Training-Logo{
+      background-image: url('Images/gspt_logo.png');
+      background-size: 12em;
+      width:100%;
+      background-position:center;
+      background-repeat: no-repeat;
+      padding: 30px 110px;
+      position: relative;
+      margin-top: 5.6em;
+      margin-left: -22em;
+
+    }
+
+    .Bottom-Nav {
+      display: flex; 
+      flex-direction: column;
+      margin-top: -8.9em;
+      margin-left: 0em;
+      margin-right: 8em;
+      margin-top: -2em;
+      width: 25px;  
+    }
+    
+    .Trademark-Text{
+      margin-top: 0.4em;
+      margin-left:-11em;
+      padding-right: 25em;
+      text-align: right;
+      font-size: 0.75em;
+      width: 50%;
+      color:#958A8A;
+      white-space:nowrap;
+    }
+    
+    .Bottom-Bar-Items1{
+      margin-left: -30em;
+      margin-right: 0em;
+      padding-left: 0em;
+      margin-top: 6em;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      
+    }
+    
+    .Bottom-Navigation-Bar-Items1 {
+      display: flex;
+      flex:auto;
+      position: relative;
+      white-space: nowrap;
+      font-weight: 500;
+      margin: 0em;
+      margin-left: 0px;
+      margin-top: 0px;
+      color: #0C0C0C;
+      list-style-type: none;
+      font-size: 1.5vw;
+      font-weight: bold;
+      font-family: gogh;
+      letter-spacing: 1px;
+    }
+    
+    .Bottom-Bar-Items2{
+      margin-left: -31.8em;
+      margin-right: 25em;
+      margin-top: -2em;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      padding-right: 14em;
+      
+    }
+    
+    .Bottom-Navigation-Bar-Items2 { 
+      display: flex;
+      flex: auto;
+      position: relative;
+      white-space: nowrap;
+      font-weight: 500;
+      margin-left: 30px;
+      color: #0C0C0C;
+      list-style-type: none;
+      font-size: 1.5vw;
+      font-weight: bold;
+      font-family: gogh;
+      letter-spacing: 1px;
+      padding-top: 60px;
+    }
+    
+    .Item-Stiri{
+      padding-left: 25px;
+    }
+
+    .Item-Contact{
+      padding-left: 54px;
+      padding-right: 27px;
+    }
+
+    
+    .Facebook-Logo {
+      background-image: url('Images/Facebook_Icon.png'); 
+      background-size: 2.5vw;
+      padding: 15px;
+      padding-right: 15px;
+      position:relative;
+      background-repeat: no-repeat;
+    }
+    
+    .Twitter-Logo {
+      background-image: url('Images/Twitter_Icon.png');
+      background-size: 2.5vw; 
+      padding: 15px;
+      padding-right: 15px;
+      margin-left: 0.5em;
+      position: relative;
+      background-repeat: no-repeat;
+    }
+    
+    .Instagram-Logo {
+      background-image: url('Images/Instagram_Icon.png'); 
+      background-size: 2.5vw;
+      padding: 15px;
+      padding-right: 17px;
+      position: relative;
+      margin-left: 0.5em;
+      background-repeat: no-repeat;
+    }
+    
+    .Youtube-Logo{
+      background-image: url('Images/Youtube_Icon.png');
+      background-size: 2.5vw;
+      padding: 15px;
+      position: relative;
+      background-repeat: no-repeat;
+      margin-left: 0.5em;
+      margin-top: 0.25em;
+    }
+  
+  
+  .Footer-Items{ 
+      position:relative;
+      display: flex;
+      flex-direction: row;
+      flex: auto;
+      justify-content: center;
+      font-size: 1.2vw;
+      list-style-type: none;
+      white-space: nowrap;
+      margin-top: 2em;
+      margin-bottom: 2em;
+  }
+  
+  .Footer-Items > li{
+     font-weight: 500;
+      margin: 0.5em;
+      color:#958A8A;
+  }
+  
+  .Horizontal-Bar {
+    border-top: 1px solid #958A8A;
+    background-position:center;
+    position:relative;
+    width: auto;
+    margin-top: 4em;
+  }
+
+  .Item-Bottom{
+    padding-right: 38px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+   *{
+    padding: 0px; 
+    margin: 0px; 
+
+  }
+
+  .nav {
+    display: flex;
+  }
+
+
+  .GSP-Logo {
+    position: relative;
+    background-image: url('Images/gspt_logo.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:24%;
+    flex: auto;
+    padding: 48px;
+    margin-top: 18px;
+    margin-left: 2.9em;
+  }
+
+  .Navigation-Bar-Items {
+    position:relative;
+    display: flex;
+    flex: auto;
+    font-weight: normal;
+    font-size: 0.8vw;
+    list-style-type: none;
+    width: 0px;
+    margin-top: 30px;
+    margin-left: -340px;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+  }
+
+  .Item {
+    padding-right: 15px;
+  }
+
+  .Background-Image {
+    position:relative; 
+    background-image: url('Images/gsp_rig.png');
+    background-repeat: no-repeat;
+    flex: auto;
+    background-position: right top;
+    background-size: 55%;
+    padding: 55px;
+    padding-bottom: 720px;
+    margin-top: -120px;
+    margin-left: 0px;
+    z-index: -1;
+  }
+
+  .Log-Reg-Block {
+    position:relative;
+    display: flex;
+    flex: auto;
+    background-position: center top;
+    font-weight: normal;
+    font-size: 0.8vw;
+    list-style-type: none;
+    width: 0px;
+    margin-top: 32px;
+    margin-left: -100px;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .Item-Login , .Item-Register{
+    padding-right: 35px;
+  }
+
+  .Item-Login{
+    padding-left: 28.5em;
+    color:white;
+  }
+  
+  .Item-Register{
+    padding-left: 34px; 
+    border-radius: 50px;
+    background-color: #95c5eb;
+    padding-top: 0.6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.3em;
+    color:white;
+    text-align: center;
+    border: none;
+    height: 6px;
+    margin-top:-0.4em;
+  }
+
+  .Background-Design {
+    position:relative; 
+    background-image: url('Images/Background-Design.png');
+    background-repeat: no-repeat;
+    flex:auto;
+    background-size:65%;
+    padding: 140px;
+    padding-bottom: 360px;
+    margin-top: -950px;
+    z-index: -2;
+  }
+
+  .Welcome-Text{
+    display:flex;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-left: -5.5em;
+  }
+
+  .WTHeader1 {
+    color: #E53212;
+    display:flex;
+    flex:auto;
+    font-size: 4.5vw;
+    font-weight: bolder;
+    width: 45%;
+    letter-spacing: 1px;
+    font-family: gogh;
+    line-height: 1.1em;
+  }
+  
+  .WTHeader2{
+    font-size: 1.2vw;
+    font-weight:300;
+    width: 40%;
+    letter-spacing: 1px;
+    line-height:1.8em;
+    font-family: madera;
+    margin-top: 0.9em;
+    margin-bottom: 1.8em;
+    text-align: left;
+    flex:auto;
+  }
+  
+  .WTButton{
+    background-color: #0033FF;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 24%;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    flex:auto;
+  }
+
+  .Acreditation-Block {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-top: -70px;
+  }
+
+  .Certification-Block{
+    display: inline-flex;
+    padding-bottom: 10px;
+  }
+
+  .Acreditation-Text{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1.2vw;
+    width: 40%;
+    font-weight: 900;
+    width:auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #606060;
+    font-family:gogh;
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+  
+  .Certificate1{
+    background-image: url('Images/iadc.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 17vw ;
+    flex:auto;
+    padding-right: 0px;
+    padding-bottom: 95px;
+    margin-top: 1.5em;
+    margin-left: -40em;
+  }
+  
+  .Certificate2{
+    background-image: url('Images/iwcf.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 22vw;
+    flex:auto; 
+    padding-right: 0px;
+    padding-bottom: 95px;
+    margin-left:-10em;
+    margin-top:-6.2em;
+    z-index: 2;
+  }
+  
+  .Certificate3{
+    background-image: url('Images/veritas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22vw;
+    flex:auto;
+    padding-bottom: 95px;
+    margin-left: 17em;
+    margin-top: -5.7em;
+  }
+  
+  .Certificate4{
+    background-image: url('Images/sparrows.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13vw;
+    flex:auto;
+    margin-top: -6em;
+    margin-left: 43em;
+    padding-right: 0px;
+    padding-bottom: 95px;
+  }
+
+  .Drilling-Simulator-Block{
+    margin-top: 4em;
+    margin-left: 0px;
+    line-height: 0px;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .DSTHeader1{
+    font-family:madera;
+    color: #958A8A; 
+    font-weight:bold;
+    flex:auto;
+    font-size: 1.2vw;
+    margin-bottom: 60px;
+    width:auto;
+    text-align:center;
+  }
+  
+  .DSTHeader2{
+    font-size: 3.6vw;
+    flex:auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    text-align: center;
+    width:auto;
+    text-align:center;
+  }
+  
+  .DSTHeader3{
+    letter-spacing: 1px;
+    font-family:madera;
+    font-size: 1.2vw;
+    color: #958A8A;
+    line-height: 2;
+    font-weight: 100px;
+    width: 44% ;
+    text-align: center;
+    flex:auto;
+    margin-top: -15px;
+    margin-left: 22.6em;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .DSTButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 18%;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 34.28em;
+    margin-top: -25px;
+  }
+
+  .Rig-Image{
+    background-image:url('Images/Frame.png');
+    background-size: 26%;
+    background-position: center;
+    flex:auto;
+    padding-bottom:485px;
+    background-repeat: no-repeat;
+    margin-top: 0em;
+  }
+  
+  .Curved-Line{
+    position:relative;
+    background-image:url('Images/Curved-Line.png'); 
+    background-size: 100%;
+    background-position: center;
+    flex:auto;
+    padding: 16.5em 0em;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-top: -29em;
+  }
+  
+  .Information-Background{
+    position:relative;
+    background-image: url('Images/Information-Background.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    flex:auto;
+    padding: 20px 0px;
+    margin-top: -21em;
+    margin-left: 0em;
+    z-index:-2;
+    height: 1425px;
+    overflow-x: hidden;
+  }
+  
+  .Platform-Image {
+    background-image: url('Images/platform_drawing.png'); 
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40vw;
+    flex:auto;
+    padding: 180px;
+    padding-bottom: 285px;
+    position: relative;
+    margin-top: 16.5em;
+    margin-left: 4.5em;
+  }
+  
+  .Training-Image{
+    background-image: url('Images/training_screenshot.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 45vw;
+    flex:auto;
+    padding-right: 10px;
+    padding-bottom: 500px;
+    position: relative; 
+    margin-top: 0em;
+    margin-left: 0em;
+  }
+  
+  .Career-Oil-Gas-Block{
+    margin-top : -57.5em;
+    margin-left: 28.5em;
+    display:flex;
+    float: right;
+    padding-right: 0px;
+    flex-direction: column;
+    margin-right: 6em;
+  }
+  
+  .CIGHeader1{
+    margin-bottom: 8px;
+    font-size: 1.2vw;
+    width: 80%;
+    flex:auto;
+    font:gogh; 
+    color: #958A8A;
+    white-space: nowrap;
+    margin-left: 0em;
+  }
+  
+  .CIGHeader2{
+    font-size: 3.6vw;
+    font-family: gogh;
+    margin-left: 0em;
+    flex:auto; 
+    width: 80%;
+    margin-bottom: -20px;
+    white-space: nowrap;
+  }
+
+  .CIGHeader2-2{
+    font-size: 3.6vw;
+    font-family: gogh;
+    flex:auto; 
+    width: 83.9%;
+    margin-bottom: -20px;
+    white-space: nowrap;
+    margin-left: 0.0em
+  }
+
+  .CIGHeader2-3{
+    font-size: 3.6vw;
+    font-family: gogh;
+    flex:auto; 
+    width: 80%;
+    margin-bottom: -8px;
+    white-space: nowrap;
+    margin-left: 0em;
+  }
+  
+  .CIGHeader3{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    width: 80%;
+    flex:auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 1.4em;
+    margin-bottom: 10px;
+    margin-left: 0em;
+  }
+
+  .CIGHeader3-2{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    width: 80%;
+    flex:auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: -20px;
+    margin-left: 0em;
+  }
+  
+  .CIGHeader3-Blue{
+    color:#0033FF;
+  }
+  
+
+  .CIGButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    width: 54%;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  .Online-Training-Block{
+    margin-top : -27em;
+    margin-left: 4em;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .OTHeader1 {
+    margin-bottom: 25px;
+    font-size: 1.2vw;
+    flex: auto;
+    font:gogh; 
+    color: #958A8A;
+    white-space:nowrap;
+  }
+  
+  .OTHeader2{
+    font-size: 3.6vw;
+    flex:auto;
+    font-family: gogh;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .OTHeader3{
+    font: gogh;
+    color: #958A8A;
+    font-size: 1.2vw;
+    font-weight: normal;
+    flex:auto;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 1.4em;
+    margin-bottom: 25px;
+    width: 36%;
+  }
+  
+  .OTButton{
+    background-color: #0033FF;
+    font-size: 1.2vw;
+    width: 20%;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-family:madera;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .Globe-Image{
+      background-image:url('Images/globe.png');
+      background-repeat: no-repeat;
+      background-size: 64vw;
+      background-position: right top;
+      padding: 35.5em 14em;
+      margin-top: -17.5em;
+      margin-left: 17.4em;
+      position: relative;
+      z-index:1;
+    }
+    
+    .Extra-Background{
+      background-image:url('Images/Extra-Background.png');
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      background-position:center;
+      flex:auto;
+      height: 1550px;
+      width: 100%;
+      margin-top: -64.5em;
+      margin-left: 0em;
+      position: relative;
+      z-index:-1;
+    }
+   
+    .Career-Block{
+      margin-left: 2.6em;
+      margin-top:0em;
+      padding-top: 7.5em;
+      display:flex;
+      flex-direction:column;  
+    }
+    
+    .CHeader1{
+      color: white;
+      max-width: 28%;
+      font-size: 3.6vw;
+      font-family: gogh;
+      line-height: 1.3em;
+      margin-bottom: -4px;
+    }
+    
+    
+    .CHeader2{
+      font: gogh;
+      color: #958A8A;
+      font-size: 1.3vw;
+      font-weight: normal;
+      width: 28%;
+      line-height: 1.8;
+      margin-top: 1.4em;
+      margin-bottom: 22px;
+    }
+    
+    .CHeader1-Red{
+      color: #fc4848;
+    }
+    
+    .CButton{
+      background-color: #fc4848;
+      font-size: 1.2vw;
+      letter-spacing: 1px;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-family:madera;
+      width: 20%;
+      font-weight: bolder;
+      text-align: center;
+      margin-bottom: 200px;
+    }
+
+    .CommentBlock1{
+      margin-right: 29em;
+      margin-top: -92em;
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      width: 15.5%;
+      border-radius: 6px;
+      float: right;
+      position:relative;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+    }
+    
+    .CommentBlock2{
+      margin-right: 11.6em;
+      margin-top: -92em; 
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      float: right;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+    }
+    
+    .CommentBlock3{
+      margin-right: 26em; 
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      float:right;
+      background-color: #202020;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+      margin-top: -81em;
+      margin-left: 22em;
+    }
+    
+    .CommentBlock4{
+      margin-right: 8.6em;
+      padding-top: 0.6em;
+      padding-bottom: 1em;
+      padding-left: 0.7em;
+      border-radius: 6px;
+      width: 15.5%;
+      position:relative;
+      background-color: #202020;
+      float:right;
+      display: flex;
+      flex-direction: column;
+      z-index:2;
+      margin-left: 35.6em;
+      margin-top: -81em;
+    }
+
+    .Lorem2{
+      margin-top: -14px;
+    }
+
+    .Lorem3 {
+      margin-top: -14px;
+    }
+
+    .Lorem4{
+      margin-top:-14px;
+    } 
+
+    .CommentBlock1 > p , .CommentBlock2 > p, .CommentBlock3 > p, .CommentBlock4 > p{
+      color: white;
+      font-size: 1.2vw;
+      height: 4px;
+      font-family: gogh;
+      width: 40%;
+      margin-bottom: 30px;
+      letter-spacing: 1;
+      white-space: nowrap;
+    } 
+    
+    .ProfilePicture1{
+      position: relative;
+      background-image: url('Images/ProfilePicture1.png');
+      background-size: 17% ;
+      padding: 20px;
+      margin-top: -0.2em;
+      margin-left: 0em;
+      background-repeat: no-repeat;
+    }
+    
+    .ProfilePicture2{
+      background-image: url('Images/ProfilePicture2.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.2em;
+      margin-left: 0em;
+      background-repeat: no-repeat;
+    }
+    
+    .ProfilePicture3{
+      background-image: url('Images/ProfilePicture3.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.2em;
+      margin-left: 0em;
+      background-repeat: no-repeat; 
+    }
+    
+    .ProfilePicture4{
+      background-image: url('Images/ProfilePicture4.png');
+      background-size: 17%;
+      padding: 20px;
+      margin-top: -0.2em;
+      margin-left:0pem;
+      background-repeat: no-repeat;
+    }
+    
+    .CommentName{
+      color: white;
+      margin-top: -3.2em;
+      margin-left: 4.2em;
+      font-size: 0.7em;
+      padding-top: 3px;
+      width: 10%;
+      white-space: nowrap;
+    }
+    
+    .CommentJob{
+      color: white;
+      margin-top:0em;
+      margin-left: 4.2em;
+      font-size: 0.7em;
+      font-weight:normal;
+      white-space: nowrap;
+    }
+
+    .Capture-Interest-Title{
+      color:white;
+      font-family:gogh;
+      font-size:1.4em;
+      margin-top: -20em;
+      margin-bottom: 3em;
+      text-align:center;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      z-index:2;
+      position:relative;
+    }
+    
+    .SpecialBlock{
+      display:flex;
+      flex-direction: row;
+      flex:auto;
+      justify-content: center;
+      margin-top: 12px;
+    }
+
+    .Audio-Block{
+      display:flex;
+      flex-direction:column; 
+      margin-left: 0em;
+      margin-top: -2em
+    }
+    
+    .Audio-Image{ 
+      position:relative;
+      background-image: url('Images/Volume Up.png');
+      background-size: 3.8vw;
+      background-position: center;
+      padding: 31px;
+      margin-left: -7em;
+      padding-bottom: 0.7em;
+      background-repeat: no-repeat;
+      z-index: 2;
+      padding-top: 2.4em;
+    }
+    
+    .Confidential-Block{
+      display:flex;
+      flex-direction:column;
+      margin-left: 2em;
+      margin-top: -2.6em;
+    }
+    
+    .Confidential-Image{
+      position:relative;
+      background-image: url('Images/Unlock.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 1.8em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+
+    .Confidential-Block .FeaturesHeader1 {
+      padding-left: 2.55em;
+    } 
+    
+    .Certification-Block{
+      display:flex;
+      flex-direction:column;
+      margin-left: 2em;
+      margin-top: -2.5em; 
+    }
+    
+    .Certification-Image{
+      position:relative;
+      background-image: url('Images/Download.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 1.6em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+
+    .Certification-Block .FeaturesHeader1 {
+      padding-left: 2.9em;
+    } 
+    
+    .Interactive-Training-Block{
+      display:flex;
+      flex-direction:column; 
+      margin-left: 2em;
+      margin-top: -2.6em;
+    }
+    
+    .Interactive-Training-Image{
+      position:relative;
+      background-image: url('Images/Play.png');
+      background-size: 4vw;
+      padding: 29px;
+      padding-bottom: 1.7em;
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+  
+    .Interactive-Training-Block .FeaturesHeader1{
+      padding-left: 2.5em;
+    }
+
+    .FeaturesHeader1{
+      color: white;
+      float:right;
+      font-size: 1.6vw;
+      margin-top: 0.8em;
+      margin-left: -2.9em;
+      width: 80%;
+      flex: auto;
+      white-space: nowrap;
+      text-align: right;
+    }
+
+    .Certification-Block .FeaturesHeader2 {
+      
+    }
+    
+    .FeaturesHeader2{
+      color: #958A8A;
+      width: 80%;
+      font-size: 1.2vw;
+      text-align: right;
+      font-weight:normal;
+      letter-spacing: 1px;
+      margin-top: 1em;
+      white-space: nowrap;
+    }
+
+    .FeaturesHeader3{
+      color: #958A8A;
+      width: 80%;
+      font-size: 1.2vw;
+      text-align: right;
+      font-weight:normal;
+      letter-spacing: 1px;
+      margin-top: 1em;
+      white-space: nowrap;
+    }
+    
+    .Info-Banner{
+      background-image: url('Images/rainbow_rectangle.png');
+      background-size: 100%;
+      background-position: center; 
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right:auto;
+      flex: auto;
+      margin-top: 3.3em;
+      padding: 50px;
+      width: 75%;
+      position:relative;
+    }
+    
+    .BannerHeader{
+      color:white;
+      font-family:gogh;
+      font-size: 2.4vw;
+      width:54%;
+      padding-top:2.6em;
+      margin-top: -3em;
+      text-align: center;
+      line-height: 35px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .BannerButton{
+      margin-top: 1.5em;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.3vw;
+      letter-spacing: 1px;
+      color: white;
+      border-radius: 50px;
+      border: none;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-family:madera;
+      width: 25%;
+      font-weight: bolder;
+      text-align: center;
+      border: 1px solid white;
+    }
+
+    .Footer-Special-Block{
+      display: flex;
+    }
+
+    .GSP-Trademark{
+      display:flex;
+      flex-direction:column;
+      flex:auto;
+      margin-top: -2.5em;
+      margin-left: 10em;
+    }
+  
+    .GSP-Training-Logo{
+      background-image: url('Images/gspt_logo.png');
+      background-size: 14em;
+      width:100%;
+      background-position:center;
+      background-repeat: no-repeat;
+      padding: 30px 110px;
+      position: relative;
+      margin-top: 5.8em;
+      margin-left: -24em;
+
+    }
+
+    .Bottom-Nav {
+      display: flex; 
+      flex-direction: column;
+      margin-top: -8.9em;
+      margin-left: 0em;
+      margin-right: 17.6em;
+      margin-top: -2.1em;
+      width: 25px;  
+    }
+    
+    .Trademark-Text{
+      margin-top: 0.8em;
+      margin-left:-13em;
+      padding-right: 29em;
+      text-align: right;
+      font-size: 0.8em;
+      width: 50%;
+      color:#958A8A;
+      white-space:nowrap;
+    }
+    
+    .Bottom-Bar-Items1{
+      margin-left: -30em;
+      margin-right: 0em;
+      padding-left: 0em;
+      margin-top: 6em;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      
+    }
+    
+    .Bottom-Navigation-Bar-Items1 {
+      display: flex;
+      flex:auto;
+      position: relative;
+      white-space: nowrap;
+      font-weight: 500;
+      margin: 0em;
+      margin-left: 0px;
+      margin-top: 0px;
+      color: #0C0C0C;
+      list-style-type: none;
+      font-size: 1.5vw;
+      font-weight: bold;
+      font-family: gogh;
+      letter-spacing: 1px;
+    }
+    
+    .Bottom-Bar-Items2{
+      margin-left: -31.8em;
+      margin-right: 25em;
+      margin-top: -2em;
+      letter-spacing: 1px;
+      white-space:nowrap;
+      padding-right: 14em;
+      
+    }
+    
+    .Bottom-Navigation-Bar-Items2 { 
+      display: flex;
+      flex: auto;
+      position: relative;
+      white-space: nowrap;
+      font-weight: 500;
+      margin-left: 30px;
+      color: #0C0C0C;
+      list-style-type: none;
+      font-size: 1.5vw;
+      font-weight: bold;
+      font-family: gogh;
+      letter-spacing: 1px;
+      padding-top: 60px;
+    }
+    
+    .Item-Stiri{
+      padding-left: 25px;
+    }
+
+    .Item-Contact{
+      padding-left: 54px;
+      padding-right: 27px;
+    }
+
+    
+    .Facebook-Logo {
+      background-image: url('Images/Facebook_Icon.png'); 
+      background-size: 2.5vw;
+      padding: 17px;
+      padding-right: 22px;
+      position:relative;
+      background-repeat: no-repeat;
+    }
+    
+    .Twitter-Logo {
+      background-image: url('Images/Twitter_Icon.png');
+      background-size: 2.5vw; 
+      padding: 15px;
+      padding-right: 22px;
+      margin-left: 0.5em;
+      position: relative;
+      background-repeat: no-repeat;
+    }
+    
+    .Instagram-Logo {
+      background-image: url('Images/Instagram_Icon.png'); 
+      background-size: 2.5vw;
+      padding: 15px;
+      padding-right: 24px;
+      position: relative;
+      margin-left: 0.5em;
+      background-repeat: no-repeat;
+    }
+    
+    .Youtube-Logo{
+      background-image: url('Images/Youtube_Icon.png');
+      background-size: 2.5vw;
+      padding: 22px;
+      position: relative;
+      background-repeat: no-repeat;
+      margin-left: 0.5em;
+      margin-top: 0.25em;
+    }
+  
+  
+  .Footer-Items{ 
+      position:relative;
+      display: flex;
+      flex-direction: row;
+      flex: auto;
+      justify-content: center;
+      font-size: 1.2vw;
+      list-style-type: none;
+      white-space: nowrap;
+      margin-top: 2em;
+      margin-bottom: 2em;
+  }
+  
+  .Footer-Items > li{
+     font-weight: 500;
+      margin: 0.5em;
+      color:#958A8A;
+  }
+  
+  .Horizontal-Bar {
+    border-top: 1px solid #958A8A;
+    background-position:center;
+    position:relative;
+    width: auto;
+    margin-top: 4em;
+  }
+
+  .Item-Bottom{
+    padding-right: 38px;
+  }
+
+} 

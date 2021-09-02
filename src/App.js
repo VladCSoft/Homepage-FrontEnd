@@ -54,8 +54,8 @@ function App() {
                   <h1 className="CIGHeader2-3"> <span className="CIGHeader3-Blue"> Oil & Gas </span> </h1>
                   <h3 className="CIGHeader3"> Descopera cursurile GSP Training Center si</h3>
                   <h3 className="CIGHeader3-2"> acrediteaza-te pentru domeniul Oil & Gas. </h3>
+                  <button className="CIGButton"> AFLA MAI MULTE </button>
             </div> 
-            <button className="CIGButton"> AFLA MAI MULTE </button>
             <div className="Online-Training-Block">
                   <h3 className="OTHeader1"> PLATFORMA DE EDUCATIE ONLINE</h3> 
                   <h1 className="OTHeader2"> GSP Online Training </h1>
@@ -71,41 +71,43 @@ function App() {
             <button className="CButton"> AFLA MAI MULTE </button>
       </div>
       </div>
-      <div className="CommentBlock1">
-            <p className="Lorem1"> Lorem ipsum dolor sit </p>
-            <p className="Lorem2"> amet, consectetur  </p>
-            <p className="Lorem3"> adipiscing elit. Augue </p>
-            <p className="Lorem4"> tellus urna,mi velit diam. </p>
-            <div className="ProfilePicture1"></div>
-            <h4 className="CommentName"> Alexandru Andreescu </h4>
-            <h5 className="CommentJob"> Project Manager </h5>
-      </div>
-      <div className="CommentBlock2">
-            <p className="Lorem1"> Lorem ipsum dolor sit </p>
-            <p className="Lorem2"> amet, consectetur  </p>
-            <p className="Lorem3"> adipiscing elit. Augue </p>
-            <p className="Lorem4"> tellus urna,mi velit diam. </p>
-            <div className="ProfilePicture2"></div>
-            <h3 className="CommentName" > Irina Tofan </h3>
-            <h4 className="CommentJob"> Chief Drilling Operator </h4>
-      </div>
-      <div className="CommentBlock3">
-            <p className="Lorem1"> Lorem ipsum dolor sit </p>
-            <p className="Lorem2"> amet, consectetur  </p>
-            <p className="Lorem3"> adipiscing elit. Augue </p>
-            <p className="Lorem4"> tellus urna,mi velit diam. </p>
-            <div className="ProfilePicture3"> </div>
-            <h3 className="CommentName"> Maria Dragomiroiu</h3>
-            <h4 className="CommentJob"> Search & Rescue</h4>
-      </div>
-      <div className="CommentBlock4">
-            <p className="Lorem1"> Lorem ipsum dolor sit </p>
-            <p className="Lorem2"> amet, consectetur  </p>
-            <p className="Lorem3"> adipiscing elit. Augue </p>
-            <p className="Lorem4"> tellus urna,mi velit diam. </p>
-            <div className="ProfilePicture4"> </div>
-            <h3 className="CommentName"> Bogdan Stoian </h3>
-            <h4 className="CommentJob"> Capitan Via Explorere</h4> 
+      <div className="CommentBlockFlex">
+            <div className="CommentBlock1">
+                  <p className="Lorem1"> Lorem ipsum dolor sit </p>
+                  <p className="Lorem2"> amet, consectetur  </p>
+                  <p className="Lorem3"> adipiscing elit. Augue </p>
+                  <p className="Lorem4"> tellus urna,mi velit diam. </p>
+                  <div className="ProfilePicture1"></div>
+                  <h4 className="CommentName"> Alexandru Andreescu </h4>
+                  <h5 className="CommentJob"> Project Manager </h5>
+            </div>
+            <div className="CommentBlock2">
+                  <p className="Lorem1"> Lorem ipsum dolor sit </p>
+                  <p className="Lorem2"> amet, consectetur  </p>
+                  <p className="Lorem3"> adipiscing elit. Augue </p>
+                  <p className="Lorem4"> tellus urna,mi velit diam. </p>
+                  <div className="ProfilePicture2"></div>
+                  <h3 className="CommentName" > Irina Tofan </h3>
+                  <h4 className="CommentJob"> Chief Drilling Operator </h4>
+            </div>
+            <div className="CommentBlock3">
+                  <p className="Lorem1"> Lorem ipsum dolor sit </p>
+                  <p className="Lorem2"> amet, consectetur  </p>
+                  <p className="Lorem3"> adipiscing elit. Augue </p>
+                  <p className="Lorem4"> tellus urna,mi velit diam. </p>
+                  <div className="ProfilePicture3"> </div>
+                  <h3 className="CommentName"> Maria Dragomiroiu</h3>
+                  <h4 className="CommentJob"> Search & Rescue</h4>
+            </div>
+            <div className="CommentBlock4">
+                  <p className="Lorem1"> Lorem ipsum dolor sit </p>
+                  <p className="Lorem2"> amet, consectetur  </p>
+                  <p className="Lorem3"> adipiscing elit. Augue </p>
+                  <p className="Lorem4"> tellus urna,mi velit diam. </p>
+                  <div className="ProfilePicture4"> </div>
+                  <h3 className="CommentName"> Bogdan Stoian </h3>
+                  <h4 className="CommentJob"> Capitan Via Explorere</h4> 
+            </div>
       </div>
       <p className="Capture-Interest-Title"> As good as it sounds </p>
       <div className="SpecialBlock">
@@ -140,8 +142,8 @@ function App() {
       </div>
       <div className="Footer-Special-Block"> 
       <div className="GSP-Trademark"> 
-      <div className="GSP-Training-Logo"> </div>
-      <p className="Trademark-Text"> 2021 GSP Training.All Rights Reserved </p>
+            <div className="GSP-Training-Logo"> </div>
+            <p className="Trademark-Text"> 2021 GSP Training.All Rights Reserved </p>
       </div>
       <div className="Bottom-Nav">
       <div className="Bottom-Bar-Items1"> 
