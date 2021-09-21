@@ -1737,6 +1737,12 @@
 }
   */
     
+  @media only screen and (max-width: 767px) {
+    .App {
+      display: none;
+    }
+  }
+
   @media only screen and (min-width: 768px) and (max-width: 991px) { 
 
     *{
@@ -2900,7 +2906,7 @@
     background-size: 55%;
     padding: 55px;
     padding-bottom: 540px;
-    margin-top: -120px;
+    margin-top: -122px;
     margin-left: 0px;
     z-index: -1;
   }
@@ -3091,11 +3097,12 @@
     font-family:madera;
     color: #958A8A; 
     font-weight:bold;
-    flex:auto;
+    flex:auto;    
     font-size: 1.2vw;
     margin-bottom: 35px;
     width:auto;
     text-align:center;
+
   }
   
   .DSTHeader2{
@@ -3106,6 +3113,7 @@
     text-align: center;
     width:auto;
     text-align:center;
+      
   }
   
   .DSTHeader3{
@@ -3114,7 +3122,7 @@
     font-size: 1.2vw;
     color: #958A8A;
     line-height: 2;
-    font-weight: 100px;
+    font-weight: 100px;     
     width: 44% ;
     text-align: center;
     flex:auto;
@@ -4010,7 +4018,7 @@
     background-size: 55%;
     padding: 55px;
     padding-bottom: 770px  ;
-    margin-top: -120px;
+    margin-top: -125px;
     margin-left: 0px;
     z-index: -1;
   }
